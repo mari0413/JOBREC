@@ -6,6 +6,12 @@ It analyzes user-provided keywords and matches them against job listings to deli
 This repository contains the **full source code**, allowing you to customize the recommendation logic, data sources, UI layout, pagination, or extend it with real-world job APIs and AI models.
 
 ------------------------------------------------------------
+🌟 SCREENSHOT
+------------------------------------------------------------
+
+<img alt="JOBREC Main Interface" src="https://github.com/rogers-cyber/JOBREC/blob/main/Job-Recommendation-Engine.jpg" />
+
+------------------------------------------------------------
 🌟 FEATURES
 ------------------------------------------------------------
 
@@ -128,3 +134,4 @@ Website: https://matetools.gumroad.com
 Distributed as commercial source code.  
 You may use it for personal or commercial projects.  
 Redistribution, resale, or rebranding as a competing product is not allowed.
+
