@@ -32,7 +32,7 @@ This repository contains the **full source code**, allowing you to customize the
 
 1. Clone or download this repository:
 
-git clone https://github.com/yourusername/JOBREC.git  
+git clone https://github.com/rogers-cyber/JOBREC.git  
 cd JOBREC
 
 2. Install required Python packages:
@@ -134,4 +134,5 @@ Website: https://matetools.gumroad.com
 Distributed as commercial source code.  
 You may use it for personal or commercial projects.  
 Redistribution, resale, or rebranding as a competing product is not allowed.
+
 
